@@ -150,7 +150,6 @@ footer .images {
 
 .episodes .thumbnail {
   width: 90%;
-
   border: 2px solid black;
 }
 
@@ -172,11 +171,6 @@ footer .images {
 
 .buttons button:hover {
   background-color: rgb(76, 117, 252);
-}
-
-.buttons a {
-  color: inherit;
-  text-decoration: none;
 }
 
 #watchBtn {

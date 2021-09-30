@@ -22,15 +22,11 @@ function Episode({
         </h1>
         <img src={thumbnail} alt="" className="thumbnail" />
         <div className="buttons">
-          <button id="watchBtn">
-            <a href={videoSrc} target="_blank" rel="noreferrer">
-              Watch
-            </a>
+          <button onClick={() => window.open(downloadSrc)} id="watchBtn">
+            Watch
           </button>
-          <button id="downloadBtn">
-            <a href={downloadSrc} target="_blank" rel="noreferrer">
-              Download
-            </a>
+          <button onClick={() => window.open(downloadSrc)} id="downloadBtn">
+            Download
           </button>
         </div>
       </div>

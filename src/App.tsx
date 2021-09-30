@@ -185,8 +185,8 @@ function App() {
             }
             name={"FIRST TIME I GOT RECOGNIZED"}
             epNumber={4}
-            videoSrc={"https://streamhub.to/e/2ugybriyb9g3"}
-            downloadSrc={"https://streamhub.to/d/2ugybriyb9g3"}
+            videoSrc={"https://streamhub.to/e/8o7erctqcfws"}
+            downloadSrc={"https://streamhub.to/d/8o7erctqcfws"}
           />
         </div>
       </section>
