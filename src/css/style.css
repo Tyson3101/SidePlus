@@ -1,0 +1,192 @@
+html,
+body {
+  background-color: rgb(26, 26, 26);
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+  color: rgb(130, 130, 248);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+section:last-of-type {
+  margin-bottom: 10rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0.7vh 6vw;
+  border-bottom: 2px solid whitesmoke;
+}
+
+.ContainerHeader {
+  margin-top: max(1vh, 2rem);
+  text-align: center;
+}
+
+.options div.more {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.option {
+  position: relative;
+  min-height: 22vh;
+  min-width: 27vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin: 0;
+}
+
+.option img {
+  height: 18vh;
+  width: 25vw;
+  transition: height 800ms ease;
+}
+
+.option img:hover {
+  height: 22vh;
+  width: 27vw;
+}
+
+div.one .option {
+  min-height: 19vh;
+  min-width: 27vw;
+}
+
+div.one .option img {
+  height: 18vh;
+  width: 24vw;
+  transition: height 800ms ease;
+  transition: width 800ms ease;
+}
+
+div.one .option img:hover {
+  height: 19vh;
+  width: 27vw;
+}
+
+footer {
+  font-size: min(3vw, 1rem);
+  text-align: center;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 7rem;
+  background-color: rgb(64, 65, 66);
+}
+
+footer .text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+footer .text p {
+  position: relative;
+  top: -2vh;
+}
+
+footer .text a {
+  color: rgb(130, 130, 248);
+}
+
+footer .imageLeft img {
+  width: 7em;
+  height: 7vh;
+}
+
+footer .images {
+  margin: 0 4vw;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.twitter {
+  position: relative;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+
+.twitter p,
+.twitter a {
+  margin: 0;
+  color: rgb(130, 130, 248);
+}
+
+.twitterIframe {
+  height: 649px;
+  width: max(30vw, 300px);
+}
+
+.contentHeader {
+  font-size: xx-large;
+}
+
+.episodes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.episodes .thumbnail {
+  width: 90%;
+
+  border: 2px solid black;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  border: none;
+  border-radius: 3%;
+  padding: 0.5rem 0.2rem;
+  background-color: rgb(27, 77, 243);
+  transition: background-color 400ms ease;
+  cursor: pointer;
+  font-size: 1.3rem;
+  margin: 0 5%;
+}
+
+.buttons button:hover {
+  background-color: rgb(76, 117, 252);
+}
+
+.buttons a {
+  color: inherit;
+  text-decoration: none;
+}
+
+#watchBtn {
+  min-width: 60%;
+}
+
+#downloadBtn {
+  min-width: 20%;
+}
+
+.seasonHeader {
+  font-size: large;
+}
