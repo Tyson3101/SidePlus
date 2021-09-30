@@ -22,7 +22,7 @@ function Episode({
         </h1>
         <img src={thumbnail} alt="" className="thumbnail" />
         <div className="buttons">
-          <button onClick={() => window.open(downloadSrc)} id="watchBtn">
+          <button onClick={() => window.open(videoSrc)} id="watchBtn">
             Watch
           </button>
           <button onClick={() => window.open(downloadSrc)} id="downloadBtn">
