@@ -179,6 +179,15 @@ function App() {
             videoSrc={"https://streamhub.to/e/2ugybriyb9g3"}
             downloadSrc={"https://streamhub.to/d/2ugybriyb9g3"}
           />
+          <Episode
+            thumbnail={
+              "https://vhx.imgix.net/sidemen/assets/eccb77eb-9253-4e26-8ca8-22d1ed03e581-2e9f652a.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640"
+            }
+            name={"FIRST TIME I GOT RECOGNIZED"}
+            epNumber={4}
+            videoSrc={"https://streamhub.to/e/2ugybriyb9g3"}
+            downloadSrc={"https://streamhub.to/d/2ugybriyb9g3"}
+          />
         </div>
       </section>
       <section className="accessAllAreas" ref={AccessAllAreas}>
