@@ -7,7 +7,15 @@ function Footer({ scrollToTop }: { scrollToTop: Function }) {
         <div className="text">
           <h1>Free SidePlus</h1>
           <p>
-            Free SidePlus Content | Updates Every Week <br />
+            Free SidePlus Content from{" "}
+            <a
+              href="https://discord.gg/UUR2XFmDnG"
+              target="_blank"
+              rel="noreferrer"
+            >
+              KOKO Discord
+            </a>
+            <br />
             <span className="link">Schedule</span> |{" "}
             <a
               href="https://twitter.com/joinsideplus"
