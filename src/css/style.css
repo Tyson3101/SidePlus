@@ -124,7 +124,6 @@ footer .images {
 .twitter {
   position: relative;
   width: 100vw;
-  max-height: 640px;
   display: grid;
   place-items: center;
 }
@@ -136,10 +135,14 @@ footer .images {
 }
 
 .twitterIframe {
-  height: 649px;
-  width: max(30vw, 300px);
+  width: 100vw;
+  display: grid;
+  place-items: center;
 }
 
+.twitterIframe iframe {
+  min-width: 30vw;
+}
 .contentHeader {
   font-size: xx-large;
 }

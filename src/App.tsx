@@ -1,4 +1,5 @@
 import { useRef, useState, useEffect } from "react";
+import { TwitterTweetEmbed } from "react-twitter-embed";
 import fetch from "cross-fetch";
 import SidePlus from "./SidePlus.json";
 import Episode from "./components/Episode";
@@ -7,11 +8,12 @@ import Navbar from "./components/Navbar";
 import VideoPlayer from "./components/VideoPlayer";
 function App() {
   const navbar = useRef() as { current: HTMLDivElement };
+  const tweet = useRef() as { current: HTMLDivElement };
   const schedule = useRef() as { current: HTMLDivElement };
   const SideCast = useRef() as { current: HTMLDivElement };
   const AskSidemen = useRef() as { current: HTMLDivElement };
   const AccessAllAreas = useRef() as { current: HTMLDivElement };
-  const [RecentTwitterID, setRecentTwitterID] = useState("1437099438854529028");
+  const [RecentTwitterID, setRecentTwitterID] = useState("");
 
   useEffect(() => {
     console.log(
@@ -27,6 +29,9 @@ function App() {
             method: "POST",
           }
         ).then((res: any) => res.json());
+        console.log(
+          data.filter((tweet: any) => !tweet.text.startsWith("@"))[0].id
+        );
         setRecentTwitterID(
           data.filter((tweet: any) => !tweet.text.startsWith("@"))[0].id
         );
@@ -115,15 +120,16 @@ function App() {
               View SidePlus Tweets
             </a>
           </p>
-          <iframe
-            className="twitterIframe"
-            id="twitter-widget-0"
-            scrolling="no"
-            frameBorder={0}
-            allowFullScreen={true}
-            title="Twitter Tweet"
-            src={`https://platform.twitter.com/embed/Tweet.html?dnt=false&embedId=twitter-widget-0&features=eyJ0ZndfZXhwZXJpbWVudHNfY29va2llX2V4cGlyYXRpb24iOnsiYnVja2V0IjoxMjA5NjAwLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X2hvcml6b25fdHdlZXRfZW1iZWRfOTU1NSI6eyJidWNrZXQiOiJodGUiLCJ2ZXJzaW9uIjpudWxsfSwidGZ3X3NwYWNlX2NhcmQiOnsiYnVja2V0Ijoib2ZmIiwidmVyc2lvbiI6bnVsbH19&frame=false&hideCard=false&hideThread=false&id=${RecentTwitterID}&lang=en&origin=https%3A%2F%2Ftwitter.com%2Fjoinsideplus%2Fstatus%2F${RecentTwitterID}widget%3DTweet&sessionId=d0c852102292e47286f255101ecbe8edb673d09e&theme=dark&widgetsVersion=1890d59c%3A1627936082797&width=300px`}
-          />
+          {RecentTwitterID ? (
+            <div className="twitterIframe" ref={tweet}>
+              <TwitterTweetEmbed
+                tweetId={RecentTwitterID}
+                options={{ theme: "dark" }}
+              />
+            </div>
+          ) : (
+            <></>
+          )}
         </section>
         <section className="sideCast" ref={SideCast}>
           <h1 className="ContainerHeader contentHeader">Side Cast</h1>
