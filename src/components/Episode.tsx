@@ -6,12 +6,14 @@ function Episode({
   downloadSrc,
   name,
   epNumber,
+  id,
 }: {
   thumbnail: string;
   videoSrc: string;
   downloadSrc: string;
   name: string;
   epNumber?: number;
+  id: string;
 }) {
   return (
     <div className="episode">
@@ -22,7 +24,10 @@ function Episode({
         </h1>
         <img src={thumbnail} alt="" className="thumbnail" />
         <div className="buttons">
-          <button onClick={() => window.open(videoSrc)} id="watchBtn">
+          <button
+            onClick={() => window.open(window.location.origin + "/" + id)}
+            id="watchBtn"
+          >
             Watch
           </button>
           <button onClick={() => window.open(downloadSrc)} id="downloadBtn">

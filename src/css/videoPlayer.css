@@ -1,0 +1,35 @@
+.videoContainer {
+  width: 100vw;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#downloadBtn.fill {
+  min-width: 90%;
+}
+
+#iframeVideoPlayer {
+  width: 100%;
+  min-height: 43vh;
+  aspect-ratio: 16 / 9;
+}
+
+.streamHubRedirect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -10px;
+}
+
+.streamHubRedirect button {
+  background-color: rgb(27, 77, 243);
+  transition: background-color 400ms ease;
+  border: none;
+}
+
+.streamHubRedirect button:hover {
+  background-color: rgb(76, 117, 252);
+}

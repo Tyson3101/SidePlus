@@ -1,6 +1,12 @@
 import React from "react";
 
-function Footer({ scrollToTop }: { scrollToTop: Function }) {
+function Footer({
+  scrollToTop,
+  scrollToSchdule,
+}: {
+  scrollToTop?: Function;
+  scrollToSchdule?: Function;
+}) {
   return (
     <>
       <footer>
@@ -16,7 +22,10 @@ function Footer({ scrollToTop }: { scrollToTop: Function }) {
               KOKO Discord
             </a>
             <br />
-            <span className="link">Schedule</span> |{" "}
+            <span className="link" onClick={() => scrollToSchdule?.()}>
+              Schedule
+            </span>{" "}
+            |{" "}
             <a
               href="https://twitter.com/joinsideplus"
               target="_blank"
@@ -25,9 +34,13 @@ function Footer({ scrollToTop }: { scrollToTop: Function }) {
               SidePlus Twitter
             </a>
             <br />
-            <span className="link" onClick={() => scrollToTop()}>
-              Scroll to top
-            </span>
+            {scrollToTop ? (
+              <span className="link" onClick={() => scrollToTop()}>
+                Scroll to top
+              </span>
+            ) : (
+              <></>
+            )}
           </p>
         </div>
         <div className="images">

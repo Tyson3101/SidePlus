@@ -14,8 +14,11 @@ body {
   cursor: pointer;
 }
 
-section:last-of-type {
+.credit {
+  margin-top: 3vw;
   margin-bottom: 10rem;
+  width: 100vw;
+  text-align: center;
 }
 
 header {
@@ -121,6 +124,7 @@ footer .images {
 .twitter {
   position: relative;
   width: 100vw;
+  max-height: 600px;
   display: grid;
   place-items: center;
 }

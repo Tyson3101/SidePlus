@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navbar() {
+function Navbar({ scrollToSchdule }: { scrollToSchdule?: Function }) {
   return (
     <>
       <nav>
@@ -11,7 +11,13 @@ function Navbar() {
               alt=""
             />
           </a>
-          <p style={{ fontSize: "8px" }}>Made by Tyson</p>
+          {scrollToSchdule ? (
+            <span className="link" onClick={() => scrollToSchdule?.()}>
+              Schedule
+            </span>
+          ) : (
+            <></>
+          )}
           <h4>Free SidePlus</h4>
         </header>
       </nav>
