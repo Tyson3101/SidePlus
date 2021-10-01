@@ -40,7 +40,7 @@ function VideoPlayer() {
               frameBorder="0"
               allowFullScreen={true}
             ></iframe>
-            <div className="streamhubbuttons">
+            <div className="buttons">
               <button
                 onClick={() => window.open(video.downloadSrc)}
                 id="downloadBtn"

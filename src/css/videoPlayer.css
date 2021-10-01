@@ -7,12 +7,16 @@
 }
 
 #downloadBtn.fill {
-  min-width: 90%;
+  margin: 0;
+  min-width: 70%;
+  padding: 0.5rem 0.3rem;
+  font-size: min(1rem, 3.7vw);
 }
 
 #iframeVideoPlayer {
   width: 100%;
-  min-height: 43vh;
+  min-height: 24vh;
+  max-height: 45vh;
   aspect-ratio: 16 / 9;
 }
 
@@ -34,43 +38,20 @@
   background-color: rgb(76, 117, 252);
 }
 
-.streamhubbuttons button {
-  background-color: rgb(27, 77, 243);
-  transition: background-color 400ms ease;
-  border: none;
-  display: block;
+.buttons {
+  padding-bottom: 2rem;
 }
 
-.streamhubbuttons button {
-  border: none;
-  border-radius: 3%;
-  padding: 0.5rem 0.2rem;
-  background-color: rgb(27, 77, 243);
-  transition: background-color 400ms ease;
-  cursor: pointer;
-  font-size: min(1.3rem, 4vw);
-  margin: 0 5%;
+@media (max-height: 521px), screen {
+  .buttons {
+    padding-bottom: 22vw;
+  }
 }
-
-.streamhubbuttons button:hover {
-  background-color: rgb(76, 117, 252);
-}
-
-.streamhubbuttons {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 1rem;
-  padding-bottom: 10vw;
-}
-
-.streamHubRedirect button:hover {
-  background-color: rgb(76, 117, 252);
-}
-
 #goBack {
+  margin: 0;
   width: 20%;
+  padding: 0.5rem 0.3rem;
+  font-size: min(1rem, 3.7vw);
 }
 
 footer {
