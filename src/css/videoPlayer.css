@@ -38,12 +38,12 @@
   background-color: rgb(76, 117, 252);
 }
 
-.buttons {
+.videoPlay .buttons {
   padding-bottom: 2rem;
 }
 
 @media (max-height: 521px), screen {
-  .buttons {
+  .videoPlay .buttons {
     padding-bottom: 22vw;
   }
 }

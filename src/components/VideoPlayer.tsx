@@ -20,7 +20,7 @@ function VideoPlayer() {
       <Navbar />
       <div className="episodes">
         <div className="episode">
-          <div className="sizeContainer">
+          <div className="sizeContainer videoPlay">
             <h1 className="header">
               {/*eslint-disable-next-line*/}
               {video.epNumber != undefined ? `EP ${video.epNumber}` : ""}:{" "}
