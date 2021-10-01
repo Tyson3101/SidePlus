@@ -40,13 +40,19 @@ function VideoPlayer() {
               frameBorder="0"
               allowFullScreen={true}
             ></iframe>
-            <div className="buttons">
+            <div className="streamhubbuttons">
               <button
                 onClick={() => window.open(video.downloadSrc)}
                 id="downloadBtn"
                 className="fill"
               >
                 Download
+              </button>
+              <button
+                onClick={() => window.location.replace(window.location.origin)}
+                id="goBack"
+              >
+                Go Back
               </button>
             </div>
           </div>

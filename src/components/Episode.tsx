@@ -25,7 +25,9 @@ function Episode({
         <img src={thumbnail} alt="" className="thumbnail" />
         <div className="buttons">
           <button
-            onClick={() => window.open(window.location.origin + "/" + id)}
+            onClick={() =>
+              window.location.replace(window.location.origin + "/" + id)
+            }
             id="watchBtn"
           >
             Watch
