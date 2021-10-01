@@ -140,9 +140,6 @@ footer .images {
   place-items: center;
 }
 
-.twitterIframe iframe {
-  min-width: 30vw;
-}
 .contentHeader {
   font-size: xx-large;
 }
