@@ -22,9 +22,13 @@ function Footer({
               KOKO Discord
             </a>
             <br />
-            <span className="link" onClick={() => scrollToSchdule?.()}>
-              Schedule
-            </span>{" "}
+            {scrollToSchdule ? (
+              <span className="link" onClick={() => scrollToSchdule()}>
+                Schedule
+              </span>
+            ) : (
+              <></>
+            )}{" "}
             |{" "}
             <a
               href="https://twitter.com/joinsideplus"
