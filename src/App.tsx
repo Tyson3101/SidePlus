@@ -194,7 +194,7 @@ function App() {
                   >
                     SideCast Episodes
                   </span>{" "}
-                  every Sunday
+                  every Friday
                 </h3>
               </li>
               <li>
