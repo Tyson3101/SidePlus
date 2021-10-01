@@ -194,7 +194,7 @@ function App() {
                   >
                     SideCast Episodes
                   </span>{" "}
-                  every Friday
+                  every Sunday
                 </h3>
               </li>
               <li>
@@ -228,7 +228,7 @@ function App() {
                   >
                     Access All Areas
                   </span>{" "}
-                  Episodes every Friday
+                  Episodes every Sunday
                 </h3>
               </li>
             </div>
