@@ -1,6 +1,6 @@
 .videoContainer {
   width: 100vw;
-  height: 70vh;
+  min-height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -70,4 +70,8 @@
 
 #goBack {
   width: 20%;
+}
+
+footer {
+  margin-top: 2rem;
 }
