@@ -20,7 +20,7 @@ function VideoPlayer() {
       <Navbar />
       <div className="episodes">
         <div className="episode">
-          <div className="sizeContainer">
+          <div className="sizeContainer videoPlay">
             <h1 className="header">
               {/*eslint-disable-next-line*/}
               {video.epNumber != undefined ? `EP ${video.epNumber}` : ""}:{" "}
@@ -40,7 +40,7 @@ function VideoPlayer() {
               frameBorder="0"
               allowFullScreen={true}
             ></iframe>
-            <div className="streamhubbuttons">
+            <div className="buttons">
               <button
                 onClick={() => window.open(video.downloadSrc)}
                 id="downloadBtn"
