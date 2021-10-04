@@ -23,9 +23,12 @@ function Footer({
             </a>
             <br />
             {scrollToSchdule ? (
-              <span className="link" onClick={() => scrollToSchdule()}>
-                Schedule |
-              </span>
+              <>
+                <span className="link" onClick={() => scrollToSchdule()}>
+                  Schedule
+                </span>
+                <span> | </span>
+              </>
             ) : (
               <></>
             )}{" "}
