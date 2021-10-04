@@ -157,12 +157,20 @@
       "id": "vufa9r7w59u9"
     },
     {
-      "thumbnail": "https://vhx.imgix.net/sidemen/assets/1f6dd9f6-5162-41c7-8f41-8b151a581b37-62b3656f.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
+      "thumbnail": "https://vhx.imgix.net/sidemen/assets/420016fa-fb46-4113-a90d-fd135045eabe-a55d97fa.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
       "name": "WHAT A FUCKING BUZZKILL",
       "epNumber": 9,
       "videoSrc": "https://streamhub.to/e/jvhv4kiwfguo",
       "downloadSrc": "https://streamhub.to/d/jvhv4kiwfguo",
       "id": "jvhv4kiwfguo"
+    },
+    {
+      "thumbnail": "https://vhx.imgix.net/sidemen/assets/0d1b1496-a8e5-4749-a705-49570fbe21a7-1bd03036.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
+      "name": "THOSE DAYS ARE BEHIND US",
+      "epNumber": 10,
+      "videoSrc": "https://streamhub.to/e/3nyez83pho5f",
+      "downloadSrc": "https://streamhub.to/d/3nyez83pho5f",
+      "id": "3nyez83pho5f"
     }
   ]
 }
