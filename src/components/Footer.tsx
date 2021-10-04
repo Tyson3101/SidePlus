@@ -15,21 +15,20 @@ function Footer({
           <p>
             Free SidePlus Content from{" "}
             <a
-              href="https://discord.gg/UUR2XFmDnG"
+              href="https://www.reddit.com/r/Sideplus/"
               target="_blank"
               rel="noreferrer"
             >
-              KOKO Discord
+              r/SidePlus
             </a>
             <br />
             {scrollToSchdule ? (
               <span className="link" onClick={() => scrollToSchdule()}>
-                Schedule
+                Schedule |
               </span>
             ) : (
               <></>
             )}{" "}
-            |{" "}
             <a
               href="https://twitter.com/joinsideplus"
               target="_blank"
