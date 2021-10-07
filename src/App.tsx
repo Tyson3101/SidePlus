@@ -1,6 +1,4 @@
-import { useRef, useState, useEffect } from "react";
-import { TwitterTweetEmbed } from "react-twitter-embed";
-import fetch from "cross-fetch";
+import { useRef } from "react";
 import SidePlus from "./SidePlus.json";
 import Episode from "./components/Episode";
 import Footer from "./components/Footer";
@@ -8,36 +6,10 @@ import Navbar from "./components/Navbar";
 import VideoPlayer from "./components/VideoPlayer";
 function App() {
   const navbar = useRef() as { current: HTMLDivElement };
-  const tweet = useRef() as { current: HTMLDivElement };
   const schedule = useRef() as { current: HTMLDivElement };
   const SideCast = useRef() as { current: HTMLDivElement };
   const AskSidemen = useRef() as { current: HTMLDivElement };
   const AccessAllAreas = useRef() as { current: HTMLDivElement };
-  const [RecentTwitterID, setRecentTwitterID] = useState("");
-
-  useEffect(() => {
-    console.log(
-      Object.values(SidePlus).flatMap((content) => [
-        ...content.map((ep) => ({ name: ep.name, id: ep.id })),
-      ])
-    );
-    (async () => {
-      try {
-        const { data } = await fetch(
-          "https://serverglitch.glitch.me/sideplus",
-          {
-            method: "POST",
-          }
-        ).then((res: any) => res.json());
-        console.log(
-          data.filter((tweet: any) => !tweet.text.startsWith("@"))[0].id
-        );
-        setRecentTwitterID(
-          data.filter((tweet: any) => !tweet.text.startsWith("@"))[0].id
-        );
-      } catch (e) {}
-    })();
-  }, []);
 
   if (
     Object.values(SidePlus)
@@ -109,27 +81,22 @@ function App() {
             </div>
           </div>
         </section>
-        <section className="twitter">
-          <h1 className="ContainerHeader">Recent Twitter Activity</h1>
-          <p>
-            <a
-              href="https://twitter.com/joinsideplus"
-              target="_blank"
-              rel="noreferrer"
-            >
-              View SidePlus Tweets
-            </a>
-          </p>
-          {RecentTwitterID ? (
-            <div className="twitterIframe" ref={tweet}>
-              <TwitterTweetEmbed
-                tweetId={RecentTwitterID}
-                options={{ theme: "dark" }}
+        <section className="RecentVideo">
+          <h1 className="ContainerHeader contentHeader">Recent Video</h1>
+          <div className="episodes">
+            <h1 className="seasonHeader">{SidePlus.latest[0].show}</h1>
+            {
+              <Episode
+                key={SidePlus.latest[0].id}
+                id={SidePlus.latest[0].id}
+                name={SidePlus.latest[0].name}
+                thumbnail={SidePlus.latest[0].thumbnail}
+                epNumber={SidePlus.latest[0].epNumber}
+                videoSrc={SidePlus.latest[0].videoSrc}
+                downloadSrc={SidePlus.latest[0].downloadSrc}
               />
-            </div>
-          ) : (
-            <></>
-          )}
+            }
+          </div>
         </section>
         <section className="sideCast" ref={SideCast}>
           <h1 className="ContainerHeader contentHeader">Side Cast</h1>
