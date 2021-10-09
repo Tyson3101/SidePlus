@@ -1,15 +1,4 @@
 {
-  "latest": [
-    {
-      "show": "Ask Sidemen",
-      "thumbnail": "https://vhx.imgix.net/sidemen/assets/df67d90a-8e45-486b-a43a-9925dd945519-6d7cedcb.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
-      "name": "SHE SHOWED UP WITH HER BOYFRIEND",
-      "epNumber": 5,
-      "videoSrc": "https://streamhub.to/e/w3eiylbf93tt",
-      "downloadSrc": "https://streamhub.to/d/w3eiylbf93tt",
-      "id": "w3eiylbf93tt"
-    }
-  ],
   "sidecast": [
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/de16e39a-f8d3-49dd-b93a-da99cc412f18?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -17,7 +6,8 @@
       "epNumber": 1,
       "videoSrc": "https://streamhub.to/e/2ugybriyb9g3",
       "downloadSrc": "https://streamhub.to/d/2ugybriyb9g3",
-      "id": "2ugybriyb9g3"
+      "id": "2ugybriyb9g3",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/f9b0f4d6-bf8f-4669-a5a3-1e5b40a74187?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -25,7 +15,8 @@
       "epNumber": 2,
       "videoSrc": "https://streamhub.to/e/m3vt7lgfrbcr",
       "downloadSrc": "https://streamhub.to/d/m3vt7lgfrbcr",
-      "id": "m3vt7lgfrbcr"
+      "id": "m3vt7lgfrbcr",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/5d3310cd-cec0-4bd6-9318-2e58724a4989?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -33,7 +24,8 @@
       "epNumber": 3,
       "videoSrc": "https://streamhub.to/e/ulw2n2esfwky",
       "downloadSrc": "https://streamhub.to/d/ulw2n2esfwky",
-      "id": "ulw2n2esfwky"
+      "id": "ulw2n2esfwky",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/8b3c3154-d9f7-4a03-9f29-9caddf5ad9bf?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -41,7 +33,8 @@
       "epNumber": 4,
       "videoSrc": "https://streamhub.to/e/gjtf7dwbopew",
       "downloadSrc": "https://streamhub.to/d/gjtf7dwbopew",
-      "id": "gjtf7dwbopew"
+      "id": "gjtf7dwbopew",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/d27230a7-2e6c-4d0d-9cbb-789145d7ecff-552fb4e8.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -49,7 +42,8 @@
       "epNumber": 5,
       "videoSrc": "https://streamhub.to/e/659qia8olcm1",
       "downloadSrc": "https://streamhub.to/d/659qia8olcm1",
-      "id": "659qia8olcm1"
+      "id": "659qia8olcm1",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/784ed2fc-846d-4e64-9661-f17c9193890a-cd8149eb.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -57,7 +51,8 @@
       "epNumber": 6,
       "videoSrc": "https://streamhub.to/e/8ez9t0rt5mmx",
       "downloadSrc": "https://streamhub.to/d/8ez9t0rt5mmx",
-      "id": "8ez9t0rt5mmx"
+      "id": "8ez9t0rt5mmx",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/25e9b3c7-8331-4ef3-99c2-be7f9e6d36b2-8c9f8157.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -65,7 +60,17 @@
       "epNumber": 7,
       "videoSrc": "https://streamhub.to/e/gmr419tn024y",
       "downloadSrc": "https://streamhub.to/d/gmr419tn024y",
-      "id": "gmr419tn024y"
+      "id": "gmr419tn024y",
+      "latest": false
+    },
+    {
+      "thumbnail": "https://vhx.imgix.net/sidemen/assets/024cc0d5-4068-48d0-804c-d16783f72e25-2457a374.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
+      "name": "ARE WE PIONEERS",
+      "epNumber": 8,
+      "videoSrc": "https://streamhub.to/e/rpff6rra4yp1",
+      "downloadSrc": "https://streamhub.to/d/rpff6rra4yp1",
+      "id": "rpff6rra4yp1",
+      "latest": true
     }
   ],
   "asksidemen": [
@@ -75,7 +80,8 @@
       "epNumber": 1,
       "videoSrc": "https://streamhub.to/e/o3k339w7em6b",
       "downloadSrc": "https://streamhub.to/d/o3k339w7em6b",
-      "id": "o3k339w7em6b"
+      "id": "o3k339w7em6b",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/99690022-094c-42d1-8c66-dfb5f1805613-7ad47d71.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -83,7 +89,8 @@
       "epNumber": 2,
       "videoSrc": "https://streamhub.to/e/tlke0zfx388o",
       "downloadSrc": "https://streamhub.to/d/tlke0zfx388o",
-      "id": "tlke0zfx388o"
+      "id": "tlke0zfx388o",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/f9337642-e2f9-4e88-94d2-ec8cd24a69f2-e82738c6.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -91,7 +98,8 @@
       "epNumber": 3,
       "videoSrc": "https://streamhub.to/e/2ugybriyb9g3",
       "downloadSrc": "https://streamhub.to/d/2ugybriyb9g3",
-      "id": "2ugybriyb9g3"
+      "id": "2ugybriyb9g3",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/6fa28410-523e-4f49-8c0f-56e1f434caf1-fb73265c.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -99,7 +107,8 @@
       "epNumber": 4,
       "videoSrc": "https://streamhub.to/e/8o7erctqcfws",
       "downloadSrc": "https://streamhub.to/d/gmr419tn024y",
-      "id": "8o7erctqcfws"
+      "id": "8o7erctqcfws",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/df67d90a-8e45-486b-a43a-9925dd945519-6d7cedcb.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -107,7 +116,8 @@
       "epNumber": 5,
       "videoSrc": "https://streamhub.to/e/w3eiylbf93tt",
       "downloadSrc": "https://streamhub.to/d/w3eiylbf93tt",
-      "id": "w3eiylbf93tt"
+      "id": "w3eiylbf93tt",
+      "latest": false
     }
   ],
   "accessallareas": [
@@ -117,7 +127,8 @@
       "epNumber": 1,
       "videoSrc": "https://streamhub.to/e/swz6r1ejcmog",
       "downloadSrc": "https://streamhub.to/d/swz6r1ejcmog",
-      "id": "swz6r1ejcmog"
+      "id": "swz6r1ejcmog",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/16bf7c49-1c23-4a67-91e7-2490dc44224c-970671e4.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -125,7 +136,8 @@
       "epNumber": 2,
       "videoSrc": "https://streamhub.to/e/iembdzgcxsno",
       "downloadSrc": "https://streamhub.to/d/iembdzgcxsno",
-      "id": "iembdzgcxsno"
+      "id": "iembdzgcxsno",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/92bca835-6066-4510-a106-53242224c289-03e39813.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -133,7 +145,8 @@
       "epNumber": 3,
       "videoSrc": "https://streamhub.to/e/9rjqy8j6gniw",
       "downloadSrc": "https://streamhub.to/d/9rjqy8j6gniw",
-      "id": "9rjqy8j6gniw"
+      "id": "9rjqy8j6gniw",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/fb043ad3-2adf-4f6d-acb4-55cdb9cbf4a7-af54f39c.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -141,7 +154,8 @@
       "epNumber": 4,
       "videoSrc": "https://streamhub.to/e/vu0fswlupnxq",
       "downloadSrc": "https://streamhub.to/d/vu0fswlupnxq",
-      "id": "vu0fswlupnxq"
+      "id": "vu0fswlupnxq",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/751147e6-6ed0-4a65-bf81-f7c86b274eb4-0cf72f1e.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -149,7 +163,8 @@
       "epNumber": 5,
       "videoSrc": "https://streamhub.to/d/i0r3i41vswci",
       "downloadSrc": "https://streamhub.to/d/i0r3i41vswci",
-      "id": "i0r3i41vswci"
+      "id": "i0r3i41vswci",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/c5c25a71-de41-455a-9b06-d673cac7308d-87e5c297.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -157,7 +172,8 @@
       "epNumber": 6,
       "videoSrc": "https://streamhub.to/e/x6crjsjvo9rn",
       "downloadSrc": "https://streamhub.to/d/x6crjsjvo9rn",
-      "id": "x6crjsjvo9rn"
+      "id": "x6crjsjvo9rn",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/aec787cf-5530-424e-ba09-49ced5b0bf59-38b00fc0.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -165,7 +181,8 @@
       "epNumber": 7,
       "videoSrc": "https://streamhub.to/e/cwf0d6qbd84e",
       "downloadSrc": "https://streamhub.to/d/cwf0d6qbd84e",
-      "id": "cwf0d6qbd84e"
+      "id": "cwf0d6qbd84e",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/3a705db0-b729-43d1-9edc-079fde4688e4-65262889.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -173,7 +190,8 @@
       "epNumber": 8,
       "videoSrc": "https://streamhub.to/e/vufa9r7w59u9",
       "downloadSrc": "https://streamhub.to/d/vufa9r7w59u9",
-      "id": "vufa9r7w59u9"
+      "id": "vufa9r7w59u9",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/420016fa-fb46-4113-a90d-fd135045eabe-a55d97fa.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -181,7 +199,8 @@
       "epNumber": 9,
       "videoSrc": "https://streamhub.to/e/jvhv4kiwfguo",
       "downloadSrc": "https://streamhub.to/d/jvhv4kiwfguo",
-      "id": "jvhv4kiwfguo"
+      "id": "jvhv4kiwfguo",
+      "latest": false
     },
     {
       "thumbnail": "https://vhx.imgix.net/sidemen/assets/0d1b1496-a8e5-4749-a705-49570fbe21a7-1bd03036.png?auto=format%2Ccompress&fit=crop&h=360&q=70&w=640",
@@ -189,7 +208,8 @@
       "epNumber": 10,
       "videoSrc": "https://streamhub.to/e/3nyez83pho5f",
       "downloadSrc": "https://streamhub.to/d/3nyez83pho5f",
-      "id": "3nyez83pho5f"
+      "id": "3nyez83pho5f",
+      "latest": false
     }
   ]
 }

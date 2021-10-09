@@ -10,6 +10,7 @@ function App() {
   const SideCast = useRef() as { current: HTMLDivElement };
   const AskSidemen = useRef() as { current: HTMLDivElement };
   const AccessAllAreas = useRef() as { current: HTMLDivElement };
+  const LatestVideo = GetLatestVideo();
 
   if (
     Object.values(SidePlus)
@@ -84,16 +85,16 @@ function App() {
         <section className="RecentVideo">
           <h1 className="ContainerHeader contentHeader">Recent Video</h1>
           <div className="episodes">
-            <h1 className="seasonHeader">{SidePlus.latest[0].show}</h1>
+            <h1 className="seasonHeader">{LatestVideo.show}</h1>
             {
               <Episode
-                key={SidePlus.latest[0].id}
-                id={SidePlus.latest[0].id}
-                name={SidePlus.latest[0].name}
-                thumbnail={SidePlus.latest[0].thumbnail}
-                epNumber={SidePlus.latest[0].epNumber}
-                videoSrc={SidePlus.latest[0].videoSrc}
-                downloadSrc={SidePlus.latest[0].downloadSrc}
+                key={LatestVideo.id}
+                id={LatestVideo.id}
+                name={LatestVideo.name}
+                thumbnail={LatestVideo.thumbnail}
+                epNumber={LatestVideo.epNumber}
+                videoSrc={LatestVideo.videoSrc}
+                downloadSrc={LatestVideo.downloadSrc}
               />
             }
           </div>
@@ -227,3 +228,29 @@ function App() {
 }
 
 export default App;
+
+function GetLatestVideo() {
+  const LatestVideo = (
+    Object.values(SidePlus).find((content) =>
+      content.find((ep) => ep.latest)
+    ) as any
+  ).find((ep: any) => ep.latest);
+  const LatestVideoShow = Object.keys(SidePlus).find((key) =>
+    (SidePlus as any)[key].find((ep: any) => ep.latest)
+  ) as any;
+
+  let show = "";
+  switch (LatestVideoShow) {
+    case "sidecast":
+      show = "Side Cast";
+      break;
+    case "asksidemen":
+      show = "Ask Sidemen";
+      break;
+    case "accessallareas":
+      show = "Access All Areas";
+      break;
+  }
+
+  return { ...LatestVideo, show };
+}
