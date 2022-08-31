@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/SidePlus/static/css/main.e3cfe46d.css",
+    "main.js": "/SidePlus/static/js/main.21d073c0.js",
+    "index.html": "/SidePlus/index.html",
+    "main.e3cfe46d.css.map": "/SidePlus/static/css/main.e3cfe46d.css.map",
+    "main.21d073c0.js.map": "/SidePlus/static/js/main.21d073c0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e3cfe46d.css",
+    "static/js/main.21d073c0.js"
+  ]
+}
